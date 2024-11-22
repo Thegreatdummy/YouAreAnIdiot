@@ -28,7 +28,7 @@ namespace YouAreAnIdiot
        
         private void webBrowser1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            if (e.KeyCode == Keys.A)
+            if (e.KeyCode == Keys.C)
             {
                 Environment.Exit(0);
             }
